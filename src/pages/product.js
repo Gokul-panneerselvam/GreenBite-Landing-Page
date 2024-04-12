@@ -20,7 +20,7 @@ export default function Product(){
                 <Heading value="Pick up your meal kit from vareity of choices"/>
                 <SupTxt value='Indulge in Culinary Excellence Delivered to Your Doorstep!'/>
             </div>
-            <div className="pro-items">
+            <div className="sec-items">
             <div className='items'>
                 <Mealkit txt = " Breakfast" source={breakfast} />
                 <Mealkit txt = " Lunch" source={lunch} />
