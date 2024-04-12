@@ -1,4 +1,4 @@
-import { NavBtn,SupTxt} from "./components";
+import { NavBtn,SupTxt } from "./components";
 import { GrMenu } from "react-icons/gr";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";

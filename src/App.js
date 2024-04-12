@@ -1,12 +1,13 @@
-import { useState } from 'react';
 import './App.css';
-import Header from './header';
-import Hero from './hero';
+import Header from './pages/header';
+import Hero from './pages/hero';
+import Product from './pages/product';
 function App() {
   return (
     <>
       <Header />
       <Hero/>
+      <Product/>
     </>
   );
 }

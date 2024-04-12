@@ -25,6 +25,7 @@
 }
 .heading{
   font-size: 43px;
+  margin-bottom: 1rem;
 }
 .subtxt{
   font-size: 32px;
@@ -160,6 +161,7 @@
   padding: 1rem 1.3rem;
   font-size: 32px;
   font-weight: 600;
+  border-style: none;
   font-family: "Poppins",sans-serif;
   transition: .5s;
 
@@ -174,10 +176,77 @@
   left: 0px;
   object-fit: cover;
   z-index: -12;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 102vh;
 }
+.items{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
+}
+.subtitle-txt{
+  width: 100%;
+  padding-left:3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.product{
+  background-color:white;
+  color: #000000;
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.pro-items{
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+
+
+}
+.meal-card{
+  width: 100px;
+  height: 150px;
+  background-color: transparent;
+  display: flex;
+  margin: 2rem 2rem 0rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  transition: .05s;
+}
+.meal-card:hover{
+  transform: scale(1.1);
+}
+.meal-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.pro-btn{
+  border-radius: .4rem;
+  width: 80%;
+  border-style: none;
+  background-color:#f23005;
+  color: white;
+  padding: .6rem .8rem;
+  margin-top: 3rem;
+}
+.pro-btn:hover{
+  background-color:#65a603;
+
+}
 /* MOBILE Small devices such as large phones (640px and up) */
 
 @media only screen and (max-width: 40em) {
