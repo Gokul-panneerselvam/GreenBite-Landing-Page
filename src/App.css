@@ -410,6 +410,14 @@ align-items: center;
   background-color:var(--red);
   color:white;
 }
+.footer{
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  font-style: italic;
+  padding: 1rem;
+}
+
 /* MOBILE Small devices such as large phones (640px and up) */
 
 @media only screen and (max-width: 40em) {

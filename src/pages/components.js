@@ -3,6 +3,7 @@ import { FaPhoneVolume,FaWhatsapp } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import {PiInstagramLogoBold} from "react-icons/pi"
 import { AiOutlineFacebook } from "react-icons/ai";
+import { BsTwitterX } from "react-icons/bs";
 
 function NavBtn({value}){
     return <a className="nav-link" href={'#'+value}>{value}</a>;
@@ -94,6 +95,7 @@ function SocialMedia(){
                 <a href='#'><SubHead value={<PiInstagramLogoBold />}/></a>
                 <a href='#'><SubHead value={<FaWhatsapp />}/></a>
                 <a href='#'><SubHead value={<AiOutlineFacebook />}/></a>
+                <a href='#'><SubHead value={<BsTwitterX />}/></a>
             </div>
         </div>
         </>

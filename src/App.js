@@ -4,6 +4,7 @@ import Hero from './pages/hero';
 import Product from './pages/product';
 import AboutUs from './pages/aboutus';
 import Contact from './pages/contact';
+import Footer from './pages/footer';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Product/>
       <AboutUs/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
