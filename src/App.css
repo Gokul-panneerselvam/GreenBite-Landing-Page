@@ -277,7 +277,139 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 }
+.contact-sec{
+  background-color:var(--blue);
+  color:var(--lgrey);
+  padding: 3rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.feedback{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: start;
+}
+.msg{
+  width: 40%;
+  padding: 1rem;
+}
+.contact{
+  width: 40%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.phone{
+  padding: 1rem;
+  
+}
+.phone1{
+  margin-top: .4rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: .6rem;
+  align-items: start;
+  text-decoration: none;
+  color: #d9d9d9;
+}
+.social-media{
+  padding: 1rem;
 
+}
+.media-icons{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  align-items: start;
+  margin-left: 5rem;
+}
+.media-icons>a{
+  text-decoration: none;
+  color: #d9d9d9;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+  border: var(--lgrey) solid;
+  border-radius: .5rem;
+  margin: 2rem 0rem;
+  
+}
+.form >*{
+  margin: .3rem;
+}
+.form>input:focus{
+  border: .1rem solid var(--lgreen) ;
+  font-size: .8rem;
+  color: white;
+  
+}
+.form>textarea:focus{
+  border: .1rem solid var(--lgreen) ;
+  color: white;
+  font-size: .8rem;
+}
+.form>label{
+  font-weight: 500;
+  font-size: .9rem;
+}
+.form >input{
+  border-radius: .3rem;
+  background-color: transparent;
+  height: 1.5rem;
+  border: .1rem solid var(--lgrey)  ;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none; 
+}
+.form>textarea{
+  border-radius: .3rem;
+  background-color: transparent;
+  border: .1rem solid var(--lgrey) ;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.formBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+.formBtn>button{
+  font-weight: 600;
+  font-size: 1rem;
+  padding: .3rem 1rem;
+  border-radius: .3rem;
+  border-style: none;
+  color: white; 
+  margin: .8rem 2rem .3rem 0rem; 
+}
+.subBtn{
+  background-color:var(--green);
+}
+.subBtn:hover{
+  background-color:var(--lgreen);
+  color: white;
+
+}
+.clrBtn{
+  background-color: var(--dred);
+}
+.clrBtn:hover{
+  background-color:var(--red);
+  color:white;
+}
 /* MOBILE Small devices such as large phones (640px and up) */
 
 @media only screen and (max-width: 40em) {

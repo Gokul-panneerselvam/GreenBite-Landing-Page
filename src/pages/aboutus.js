@@ -31,7 +31,7 @@ function MotoInvert({source,txt}){
 export default function AboutUs(){
     return(
         <>
-        <section className="about-sec">
+        <section className="about-sec" id="ABOUT US">
             <div className="subtitle-txt">
                 <Heading value="How is our products"/>
             </div>

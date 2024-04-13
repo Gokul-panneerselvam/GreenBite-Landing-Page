@@ -15,7 +15,7 @@ import chocolate from '../images/chocolate.jpg'
 export default function Product(){
     return(
         <>
-        <section className="product">
+        <section className="product" id="PRODUCTS">
             <div className="subtitle-txt">
                 <Heading value="Pick up your meal kit from vareity of choices"/>
                 <SupTxt value='Indulge in Culinary Excellence Delivered to Your Doorstep!'/>

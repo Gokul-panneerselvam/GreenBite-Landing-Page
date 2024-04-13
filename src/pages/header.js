@@ -9,7 +9,6 @@ function NavMenu(){
         <NavBtn value= 'HOME' />
         <NavBtn value= 'PRODUCTS' />
         <NavBtn value= 'ABOUT US' />
-        <NavBtn value= 'TESTIMONALS' />
         <NavBtn value= 'CONTACT' />
         </>
     )
